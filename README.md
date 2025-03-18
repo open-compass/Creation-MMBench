@@ -2,13 +2,13 @@
 
 <div align="center">
 
-[📃 [Paper](https://arxiv.org/abs/2503.XXXXX)]
+[📃 [Paper(Coming Soon)](https://arxiv.org/abs/2503.XXXXX)]
 [🌐 [Project Page](https://open-compass.github.io/Creation-MMBench/)]
 [🤗 [Hugging Face](https://huggingface.co/datasets/opencompass/Creation-MMBench)]
 </div>
 
 ## 📣 What's New
-- **[2025.3.17]** Release the Creation-MMBench dataset on Hugging Face. 🎉🎉🎉
+- **[2025.3.17]** The Creation-MMBench Dataset, WebPage and Evaluation Code is all released! 🎉🎉🎉
 
 ## 🌟 Introduction
 

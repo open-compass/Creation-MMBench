@@ -80,7 +80,7 @@
                   <a href="" style="font-weight:normal;">Lixin Ma<sup>3</sup></a>,
                 </span>
                 <span class="author-block">
-                  <a href="" style="font-weight:normal;">Shengyuan Ding<sup>2,4</sup></a>,
+                  <a href="https://github.com/SYuan03" style="font-weight:normal;">Shengyuan Ding<sup>2,4</sup></a>,
                 </span>
                 <span class="author-block">
                   <a href="" style="font-weight:normal;">Yingji Liang<sup>5</sup></a>,
@@ -92,10 +92,10 @@
                   <a href="" style="font-weight:normal;">Farong Wen<sup>6</sup></a>,
                 </span>
                 <span class="author-block">
-                  <a href="" style="font-weight:normal;">Zicheng Zhang<sup>2,6</sup></a>,
+                  <a href="https://zzc-1998.github.io/" style="font-weight:normal;">Zicheng Zhang<sup>2,6</sup></a>,
                 </span>
                 <span class="author-block">
-                  <a href="" style="font-weight:normal;">Guofeng Zhang<sup>1</sup></a>,
+                  <a href="http://www.cad.zju.edu.cn/home/gfzhang/" style="font-weight:normal;">Guofeng Zhang<sup>1</sup></a>,
                 </span>
                 <span class="author-block">
                   <a href="https://kennymckormick.github.io/" style="font-weight:normal;">Haodong Duan<b><sup>&dagger;2</sup></b></a>,
@@ -135,20 +135,20 @@
                       <span class="icon">
                         <i class="ai ai-arxiv"></i>
                       </span>
-                      <span>arXiv</span>
+                      <span>arXiv(Coming Soon)</span>
                     </a>
                   </span>
                   <span class="link-block">
-                    <a href="https://github.com/open-compass/VLMEvalKit" target="_blank"
+                    <a href="https://github.com/open-compass/Creation-MMBench" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fab fa-github"></i>
                       </span>
-                      <span>Code (Integrated Into VLMEvalKit)</span>
+                      <span>Code</span>
                     </a>
                   </span>
                   <span class="link-block">
-                    <a href="https://huggingface.co/datasets/nebulae09/Creation-MMBench" target="_blank"
+                    <a href="https://huggingface.co/datasets/opencompass/Creation-MMBench" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <p style="font-size:18px">🤗</p>
@@ -184,7 +184,7 @@
                       <td>
                         <div  align="left" style="height: 140px; overflow: auto;">
                           <ul>
-                            <li> <b style="color:#E68E34">[2025.03.17]</b> The <b>Creation-MMBench Dataset</b> is released!</b>
+                            <li> <b style="color:#E68E34">[2025.03.18]</b> The <b>Creation-MMBench Dataset, WebPage and Evaluation Code </b> is all released!</b>
                           </ul>
                         </div>
                       </td>
@@ -214,7 +214,7 @@
                 with visual inputs. Experimental results reveal that current open-source MLLMs significantly underperform compared to proprietary models in creative tasks. 
                 Furthermore, our analysis demonstrates that <b>visual fine-tuning</b> can negatively impact the base LLM's creative abilities. Creation-MMBench provides valuable insights
                 for advancing MLLM creativity and establishes a foundation for future improvements in multimodal generative intelligence. Full data and evaluation
-                code is released on <a href="https://github.com/open-compass/VLMEvalKit/">VLMEvalKit</a>.
+                code is released on <a href="https://github.com/open-compass/Creation-MMBench/">Creation-MMBench</a>.
               </p>
             </div>
           </div>
@@ -239,10 +239,10 @@
               <div class="content has-text-justified">
               <p><strong>1. Lack of Multimodal Creative Benchmarks:</strong></p>
               <p>
-                As a well-established theory in psychology, the Triarchic Theory of Intelligence comprises three subtheories: the analytical subtheory, the contextual subtheory, and the creative subtheory.
+                As a well-established theory in psychology, the Triarchic Theory of Intelligence comprises three subtheories: <b>the analytical subtheory, the contextual subtheory, and the creative subtheory</b>.
                 The analytical subtheory primarily focuses on information processing and problem-solving skills based on domain-specific knowledge and can be assessed through various knowledge and reasoning benchmarks.
                 The contextual subtheory, on the other hand, emphasizes practical intelligence in real-world scenarios and is typically evaluated using agent-based or embodied AI benchmarks. 
-                Despite the significance of the creative subtheory in intelligence, evaluations of MLLMs' creative capabilities remain highly inadequate and lag significantly behind those conducted for LLMs. 
+                Despite <b>the significance of the creative subtheory in intelligence</b>, evaluations of MLLMs' creative capabilities remain <b>highly inadequate and lag significantly behind those conducted for LLMs</b>. 
               </p>
               
               <p><strong>2. Limited Capabilities of Existing Benchmarks:</strong></p>
@@ -254,7 +254,7 @@
               <br>
               <centering>
                 <div style="text-align: center;"><img id="captioner" width="100%" src="images/spotlight-v5.png"></div>
-                <div style="text-align: left;">
+                <!-- <div style="text-align: left;">
                   <p style="font-family:Times New Roman">
                     <font size=4>
                       <b>Our Motivation for Creation-MMBench.</b> The triarchic theory of intelligence divides intelligence into three forms. 
@@ -264,7 +264,7 @@
                       better evaluation of visual creative intelligence.
                     </font>
                   </p>
-                </div>
+                </div> -->
               </centering>
               <br>
 
@@ -402,7 +402,7 @@
                     </div>
                 
                     <!-- 右侧大图 -->
-                    <div style="width: 71%;">
+                    <div style="width: 74%;">
                         <img width="100%" src="images/data-example-v2.png" alt="Example Case of Creation-MMBench">
                         <p style="font-family:Times New Roman; text-align: center;">
                             <font size="3">(c) Example Case of Creation-MMBench.</font>
@@ -413,9 +413,9 @@
                 <p style="font-family:Times New Roman; text-align: left;">
                   <font size="4">
                       <b>Statistics and Cases of Creation-MMBench:</b> Compared to other widely used MLLM benchmarks, 
-                      Creation-MMBench features a more comprehensive query design to capture abundant creative contexts. 
-                      Diverse roles are introduced into the queries to stimulate MLLMs' utilization of disciplinary and 
-                      prior knowledge. As an MLLM benchmark, Creation-MMBench includes a rich variety of images to 
+                      Creation-MMBench features a <b>more comprehensive query</b> design to capture abundant creative contexts. 
+                      <b>Diverse roles</b> are introduced into the queries to stimulate MLLMs' utilization of disciplinary and 
+                      prior knowledge. As an MLLM benchmark, Creation-MMBench includes a <b>rich variety of images</b> to 
                       thoroughly evaluate multiple capabilities of MLLMs.
                   </font>
               </p>
@@ -436,7 +436,7 @@
     <section class="hero is-light is-small" id="Captioner Title">
       <div class="hero-body has-text-centered">
         <h1 class="title is-2">
-          <span style="vertical-align: middle">Creation-MMBench Results</span>
+          <span style="vertical-align: middle">Creation-MMBench Leaderboard</span>
         </h1>
       </div>
     </section>
@@ -445,8 +445,8 @@
         <div class="columns is-centered">
           <div class="column is-full has-text-centered content">
             <div class="content">
-              <p>VFS stands for Visual Factuality Score. LW, CFW, PFW, and CMU stand for four categories in Creation-MMBench: Literary Writing, Common Functional Writing, Professional Functional Writing, and Creative Multimodal Understanding.</p>
-              <p>OC Score represents the average score of the OpenVLM Leaderboard and mainly demonstrates the objective performance of the model.</p>
+              <p>VFS stands for Visual Factuality Score. <b>LW, CFW, PFW, and CMU</b> stand for four categories in Creation-MMBench: <b>Literary Writing, Common Functional Writing, Professional Functional Writing, and Creative Multimodal Understanding</b>.</p>
+              <p><b>OC Score</b> represents the average score of the OpenVLM Leaderboard and mainly demonstrates the objective performance of the model.</p>
               <p>The token number is calculated with tiktoken GPT-4o-1120 tokenizer.</p>
               <p>The <b>best</b> results are highlighted in <b>bold</b>.</p>
               <table class="table is-striped js-sort-table" id="results">
