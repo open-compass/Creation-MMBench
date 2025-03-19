@@ -2,9 +2,10 @@
 
 <div align="center">
 
-[📃 [Paper(Coming Soon)](https://arxiv.org/abs/2503.XXXXX)]
+[📃 [Paper](https://arxiv.org/abs/2503.14478)]
 [🌐 [Project Page](https://open-compass.github.io/Creation-MMBench/)]
 [🤗 [Hugging Face](https://huggingface.co/datasets/opencompass/Creation-MMBench)]
+[🛠️ [Evaluation](https://github.com/open-compass/VLMEvalKit)]
 </div>
 
 ## 📣 What's New
@@ -406,13 +407,18 @@ You can evaluate all models in [VLMEvalKit](https://github.com/open-compass/VLME
 python run.py --model Qwen2.5-VL-7B-Instruct --data Creation_MMBench --judge gpt-4o-0806 --verbose
 # When running with `torchrun`, one VLM instance is instantiated on each GPU. It can speed up the inference.
 torchrun --nproc-per-node=2 run.py --model Qwen2.5-VL-7B-Instruct --data Creation_MMBench --judge gpt-4o-0806 --verbose
-
 ```
 
 
 # 📝 Citation
 If you use Creation-MMBench or Creation-MMBench-TO in your research, please cite the following paper:
 ```bibtex
-@misc{ 
+@misc{fang2025creationmmbench,
+    title={Creation-MMBench: Assessing Context-Aware Creative Intelligence in MLLM},
+    author={Xinyu Fang and Zhijian Chen and Kai Lan and Shengyuan Ding and Yingji Liang and Xiangyu Zhao and Farong Wen and Zicheng Zhang and Guofeng Zhang and Haodong Duan and Kai Chen and Dahua Lin},
+    year={2025},
+    eprint={2503.14478},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
 }
 ```
