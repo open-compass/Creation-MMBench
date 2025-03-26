@@ -391,6 +391,21 @@ Here is the performance of various MLLMs on Creation-MMBench. VFS stands for Vis
     <td>67.1</td>
     <td>456</td>
     </tr>
+    <tr>
+    <td>VITA-1.5</td>
+    <td>6.43</td>
+    <td>-53.31</td>
+    <td>6.77</td>
+    <td>-46.19</td>
+    <td>7.23</td>
+    <td>-46.50</td>
+    <td>5.70</td>
+    <td>-57.43</td>
+    <td>6.22</td>
+    <td>-69.72</td>
+    <td>63.3</td>
+    <td>385</td>
+   </tr>
 </tbody>
 </table>
 
@@ -414,12 +429,13 @@ torchrun --nproc-per-node=2 run.py --model Qwen2.5-VL-7B-Instruct --data Creatio
 # 📝 Citation
 If you use Creation-MMBench or Creation-MMBench-TO in your research, please cite the following paper:
 ```bibtex
-@misc{fang2025creationmmbench,
-    title={Creation-MMBench: Assessing Context-Aware Creative Intelligence in MLLM},
-    author={Xinyu Fang and Zhijian Chen and Kai Lan and Shengyuan Ding and Yingji Liang and Xiangyu Zhao and Farong Wen and Zicheng Zhang and Guofeng Zhang and Haodong Duan and Kai Chen and Dahua Lin},
-    year={2025},
-    eprint={2503.14478},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@misc{fang2025creationmmbenchassessingcontextawarecreative,
+      title={Creation-MMBench: Assessing Context-Aware Creative Intelligence in MLLM}, 
+      author={Xinyu Fang and Zhijian Chen and Kai Lan and Lixin Ma and Shengyuan Ding and Yingji Liang and Xiangyu Zhao and Farong Wen and Zicheng Zhang and Guofeng Zhang and Haodong Duan and Kai Chen and Dahua Lin},
+      year={2025},
+      eprint={2503.14478},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.14478}, 
 }
 ```
