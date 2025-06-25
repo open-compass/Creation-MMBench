@@ -11,6 +11,7 @@
 ## 📣 What's New
 - **[2025.3.18]** The Creation-MMBench Dataset, WebPage and Evaluation Code is all released! 🎉🎉🎉
 - **[2025.3.19]** The Creation-MMBench Paper is released! Check it at 📃 [Paper](https://arxiv.org/abs/2503.14478)! 🎉🎉🎉
+- **[2025.6.26]** The Creation-MMBench has been accepted at **ICCV 2025**! See you in Hawaii! 🎉🎉🎉
 
 ## 🌟 Introduction
 
