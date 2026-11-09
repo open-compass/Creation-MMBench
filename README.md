@@ -430,13 +430,17 @@ torchrun --nproc-per-node=2 run.py --model Qwen2.5-VL-7B-Instruct --data Creatio
 # 📝 Citation
 If you use Creation-MMBench or Creation-MMBench-TO in your research, please cite the following paper:
 ```bibtex
-@misc{fang2025creationmmbenchassessingcontextawarecreative,
-      title={Creation-MMBench: Assessing Context-Aware Creative Intelligence in MLLM}, 
-      author={Xinyu Fang and Zhijian Chen and Kai Lan and Lixin Ma and Shengyuan Ding and Yingji Liang and Xiangyu Zhao and Farong Wen and Zicheng Zhang and Guofeng Zhang and Haodong Duan and Kai Chen and Dahua Lin},
-      year={2025},
-      eprint={2503.14478},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2503.14478}, 
+@InProceedings{Fang_2025_ICCV,
+    author    = {Fang, Xinyu and Chen, Zhijian and Lan, Kai and Ma, Lixin and Ding, Shengyuan and Liang, Yingji and Zhao, Xiangyu and Wen, Farong and Zhang, Zicheng and Zhang, Guofeng and Duan, Haodong and Chen, Kai and Lin, Dahua},
+    title     = {Creation-MMBench: Assessing Context-Aware Creative Intelligence in MLLMs},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {447-456}
 }
 ```
+
+# 🪪 License
+
+This project, including the accompanying code and both the Creation-MMBench and Creation-MMBench-TO datasets, is released under the [MIT License](https://opensource.org/license/MIT). These materials may be used, modified, and redistributed for research
+and commercial purposes, provided that the original copyright and license notices are retained. If you use this work in your research, please cite the paper above.
